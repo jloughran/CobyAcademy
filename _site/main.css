@@ -1,0 +1,86 @@
+.header {
+  position:fixed;
+	display:block;
+	width: 100%;
+	z-index:9;
+}
+
+.menu-container {
+  background: #333;
+  color: #f2f2f2;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.menu li {
+  float: left;
+}
+
+ul.menu li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  height: 50px;
+  font-size: 20px;
+  color: #70a268;
+}
+
+li.title a {
+  font-family: 'Slabo 27px', serif;
+  margin-right: 15px;
+  color: #f2f2f2 !important;
+  font-size: 25px !important;
+  padding-top: 7px;
+}
+
+li.menu-link a {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+li.title a:hover {
+  color: #d7d7d7 !important;
+}
+
+li.menu-link a:hover {
+  background-color: #628f5b;
+  color: #f2f2f2;
+  transition: all 0.3 ease-in;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Suez One', serif !important;
+}
+
+h1 {
+  color: #f2f2f2 !important;
+  font-size: 8rem !important;
+}
+
+h2 {
+  font-size: 4rem !important;
+}
+
+h2, h3, h4, h5, p {
+  color: #333 !important;
+}
+
+p, li {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-size: 1.5rem !important;
+}
+
+a.body-link {
+  color: #1c1b1b !important;
+  text-decoration: underline !important;
+}
