@@ -1,0 +1,25 @@
+body {
+  background-color: #70a268 !important;
+  text-align: center !important;
+}
+
+h1.title-text {
+  margin-top: 100px;
+  font-family: 'Slabo 27px', serif !important;
+  font-weight: bold;
+}
+
+.start-learning h2 {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-weight: bold;
+}
+
+.start-learning a {
+  color: #f2f2f2;
+}
+
+.start-learning {
+  background-color: #333;
+  padding: 10px;
+  width: 400px;
+}
