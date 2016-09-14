@@ -36,6 +36,8 @@ a.start-learning:hover {
 }
 
 span.emphasis {
-  color: #f2f2f2;
-  text-shadow: 2px 2px #333;
+  text-shadow: -2px -2px 0 #f2f2f2,  
+    2px -2px 0 #f2f2f2,
+    -2px 2px 0 #f2f2f2,
+     2px 2px 0 #f2f2f2;
 }
