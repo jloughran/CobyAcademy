@@ -1,6 +1,17 @@
+html {
+  background: linear-gradient(
+      rgba(112, 162, 104, 0.45),
+      rgba(112, 162, 104, 0.45)
+    ), url(/img/background-large.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-  background-color: #70a268 !important;
   text-align: center !important;
+  background-color: transparent !important;
 }
 
 h1.title-text {
@@ -17,9 +28,14 @@ h1.title-text {
   cursor: default;
 }
 
+h2.home-text {
+  margin-top: 75px;
+  text-shadow: 1px 1px #f2f2f2;
+}
+
 a.start-learning {
   color: #f2f2f2;
-  background-color: #333;
+  background-color: #279AD8;
   font-size: 4rem;
   padding: 20px;
   border-radius: 25px;
@@ -32,14 +48,14 @@ a.start-learning {
 
 a.start-learning:hover {
   color: #f2f2f2;
-  background-color: #4f4f4f;
+  background-color: #51a8d7;
 }
 
 span.emphasis {
-  text-shadow: -2px -2px 0 #f2f2f2,
-    2px -2px 0 #f2f2f2,
-    -2px 2px 0 #f2f2f2,
-     2px 2px 0 #f2f2f2;
+  text-shadow: -2px -2px 0 #9BBFB5,
+    2px -2px 0 #9BBFB5,
+    -2px 2px 0 #9BBFB5,
+     2px 2px 0 #9BBFB5;
 }
 
 .home-container {

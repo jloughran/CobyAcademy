@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <title>Coby Academy</title>
   </head>
@@ -12,25 +12,36 @@
 <link rel="stylesheet" type="text/css" href="/css/main.css" />
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Source+Sans+Pro|Suez+One" rel="stylesheet">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-    <div class="header menu-container">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
-    <ul class="menu">
-      <li class="title"><a href="/">Coby Academy</a></li>
-      <li class="menu-link"><a href="/nutrition/">Health/Nutrition</a></li>
-      <li class="menu-link"><a href="/social/">Social</a></li>
-    </ul>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Coby Academy</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/nutrition/">Health/Nutrition</a></li>
+        <li><a href="/social/">Social</a></li>
+      </ul>
+    </div>
   </div>
-</div>
+</nav>
 
 
     <div class="container home-container">
-      <h1 class="title-text">Coby Academy</h1>
-<h2>Focus on what <i><span class="emphasis">matters</span></i>.</h2>
+      <h2 class="home-text">Focus on what matters</h2>
 
 <a class="btn start-learning" href="#">Start Learning</a>
 
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   </body>
 </html>
