@@ -33,6 +33,7 @@ h2.home-text {
   /*text-shadow: 1px 1px 1px #333;*/
   color: #f2f2f2 !important;
   letter-spacing: 8px;
+  font-size: 4rem;
 }
 
 h4.home-text {
@@ -41,7 +42,7 @@ h4.home-text {
 }
 
 a.start-learning {
-  color: #f2f2f2;
+  color: #f2f2f2 !important;
   background-color: transparent;
   border-style: solid;
   border-color: #f2f2f2;
@@ -56,7 +57,7 @@ a.start-learning {
 }
 
 a.start-learning:hover {
-  color: #f2f2f2;
+  color: #f2f2f2 !important;
   background-color: rgba(#f2f2f2, 0.4);
 }
 
