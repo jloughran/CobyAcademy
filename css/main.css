@@ -15,6 +15,10 @@ a.navbar-brand {
   font-size: 25px;
 }
 
+a.navbar-brand:hover {
+  color: #f2f2f2 !important;
+}
+
 ul.navbar-nav li a {
   font-family: 'Source Sans Pro', sans-serif !important;
   color: #279AD8 !important;
@@ -34,16 +38,7 @@ h1, h2, h3, h4, h5 {
   font-family: 'Dosis', sans-serif !important;
 }
 
-h1 {
-  color: #f2f2f2 !important;
-  font-size: 8rem !important;
-}
-
-h2 {
-  font-size: 4rem !important;
-}
-
-h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5, p {
   color: #333 !important;
 }
 
@@ -55,4 +50,44 @@ p, li {
 a.body-link {
   color: #1c1b1b !important;
   text-decoration: underline !important;
+}
+
+.content-container {
+  padding-top: 50px;
+}
+
+span.curated {
+  font-family: "Inconsolata", monospace !important;
+}
+
+hr {
+  border-color: #333 !important;
+}
+
+.landing-posts {
+  padding-left: 0px !important;
+  padding-right: 30px !important;
+}
+
+.landing-side {
+  padding-right: 0px !important;
+}
+
+h3.post-title {
+  color: #279AD8 !important;
+  margin-bottom: 0px;
+}
+
+p.post-description {
+  padding-left: 15px;
+}
+
+a {
+  color: #279AD8 !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #279AD8 !important;
+  text-decoration: underline;
 }
