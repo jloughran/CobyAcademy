@@ -26,6 +26,7 @@ ul.navbar-nav li a {
 
 ul.navbar-nav li a:hover {
   color: #51a8d7 !important;
+  transition: all 0.3s ease 0s;
 }
 
 li.menu-link a {
@@ -43,8 +44,8 @@ h1, h2, h3, h4, h5, p {
 }
 
 p, li {
-  font-family: 'Source Sans Pro', sans-serif !important;
-  font-size: 1.5rem !important;
+  font-family: 'Slabo 27px', serif !important;
+  font-size: 1.7rem !important;
 }
 
 a.body-link {
@@ -56,12 +57,8 @@ a.body-link {
   padding-top: 50px;
 }
 
-span.curated {
-  font-family: "Inconsolata", monospace !important;
-}
-
 hr {
-  border-color: #333 !important;
+  border-color: #acacac !important;
 }
 
 .landing-posts {
@@ -90,4 +87,25 @@ a {
 a:hover {
   color: #279AD8 !important;
   text-decoration: underline;
+}
+
+.post-content {
+  padding-left: 0px !important;
+}
+
+h1.post-title {
+  text-shadow: 2px 2px #acacac;
+  margin-bottom: 5px;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+p.post-info {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #acacac;
+}
+
+h2.post-quote {
+  font-size: 4rem;
+  font-style: italic;
 }
