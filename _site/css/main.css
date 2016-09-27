@@ -136,3 +136,9 @@ ul.post-contents li:before {
   font-weight: bold;
   padding-right: 5px;
 }
+
+@media (max-width: 992px) {
+  ul.contents-desktop {
+    height: 0px;
+  }
+}

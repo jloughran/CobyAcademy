@@ -18,18 +18,20 @@
         <i>by {{ page.author }}</i><br />
         {{ page.date | date: '%B %d, %Y' }}
       </p>
-      <div class="col-sm-8 post-content">
-        {{ content }}
-      </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 col-sm-push-8">
         <h2 class="post-quote">"{{ page.quote }}"</h2>
-        <ul id="contents" class="post-contents">
+        <ul id="contents-desktop" class="post-contents contents-desktop hidden-xs hidden-sm">
         </ul>
+        <ul id="contents-mobile" class="post-contents hidden-lg hidded-md">
+        </ul>
+      </div>
+      <div class="col-sm-8 col-sm-pull-4 post-content">
+        {{ content }}
       </div>
     </div>
     <script>
-      let scene = new ScrollMagic.Scene({triggerElement: '#contents', triggerHook: 'onLeave', offset: -50})
-        .setPin('#contents')
+      let scene = new ScrollMagic.Scene({triggerElement: '.contents-desktop', triggerHook: 'onLeave', offset: -50})
+        .setPin('.contents-desktop')
         .addTo(controller);
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
