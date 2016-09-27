@@ -97,6 +97,7 @@ h1.post-title {
   text-shadow: 2px 2px #acacac;
   margin-bottom: 5px;
   font-family: 'Source Sans Pro', sans-serif !important;
+  font-size: 5rem;
 }
 
 p.post-info {
@@ -108,4 +109,30 @@ p.post-info {
 h2.post-quote {
   font-size: 4rem;
   font-style: italic;
+  padding-bottom: 50px;
+}
+
+.post-content h1, h2.post-quote {
+  padding-top: 50px;
+}
+
+ul.post-contents {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+ul.post-contents li {
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+ul.post-contents li a:hover {
+  text-decoration: none;
+}
+
+ul.post-contents li:before {
+  content: "»";
+  font-weight: bold;
+  padding-right: 5px;
 }

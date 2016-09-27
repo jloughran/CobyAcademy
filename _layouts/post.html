@@ -8,6 +8,10 @@
   <body>
     {% include links.html %}
     {% include menu.html %}
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script>
+      var controller = new ScrollMagic.Controller();
+    </script>
     <div class="container content-container">
       <h1 class="post-title">{{ page.title }}</h1>
       <p class="post-info">
@@ -19,8 +23,17 @@
       </div>
       <div class="col-sm-4">
         <h2 class="post-quote">"{{ page.quote }}"</h2>
+        <ul id="contents" class="post-contents">
+        </ul>
       </div>
     </div>
+    <script>
+      let scene = new ScrollMagic.Scene({triggerElement: '#contents', triggerHook: 'onLeave', offset: -50})
+        .setPin('#contents')
+        .addTo(controller);
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/js/contents.js"></script>
     {% include js.html %}
   </body>
 </html>
