@@ -125,6 +125,7 @@ ul.post-contents {
 
 ul.post-contents li {
   font-family: 'Source Sans Pro', sans-serif !important;
+  font-size: 2.2rem !important;
 }
 
 ul.post-contents li a:hover {
@@ -178,8 +179,4 @@ span.first-post, .first-post {
 
 p.fp {
   color: #f2f2f2 !important;
-}
-
-.contents-desktop {
-  padding-top: 100px;
 }

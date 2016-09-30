@@ -56,7 +56,8 @@
       </div>
     </div>
     <script>
-      let scene = new ScrollMagic.Scene({triggerElement: '.contents-desktop', triggerHook: 'onLeave', offset: -50})
+      let oset = (window.innerHeight / 2 - 100) * -1;
+      let scene = new ScrollMagic.Scene({triggerElement: '.contents-desktop', triggerHook: 'onLeave', offset: oset})
         .setPin('.contents-desktop')
         .addTo(controller);
     </script>
