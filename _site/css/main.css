@@ -137,8 +137,45 @@ ul.post-contents li:before {
   padding-right: 5px;
 }
 
-@media (max-width: 992px) {
-  ul.contents-desktop {
-    height: 0px;
-  }
+img.post-image {
+  width: 100%;
+  padding-top: 20px;
+}
+
+hr.between-post {
+  border-color: #d1cccc !important;
+}
+
+.img-cont {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+img.first-image {
+  width: 100%;
+}
+
+h3.first-post-title {
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  font-size: 3.5rem;
+}
+
+span.first-post, .first-post {
+  color: #f2f2f2 !important;
+  background: rgba(51, 51, 51, 0.4);
+  padding: 10px;
+}
+
+.first-post-desc {
+  position: absolute;
+  top: 250px;
+  left: 0px;
+  width: 100%;
+}
+
+p.fp {
+  color: #f2f2f2 !important;
 }

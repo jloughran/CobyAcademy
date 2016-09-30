@@ -5,6 +5,7 @@ title: Test Post Three
 category: Nutrition
 description: Jack takes you through everything you could ever need to know about test post one.  That's right.  Everything.
 quote: This is a test of the quoting system.
+image: /img/nutrition/2016-9-28.JPG
 ---
 
 # Heading One
