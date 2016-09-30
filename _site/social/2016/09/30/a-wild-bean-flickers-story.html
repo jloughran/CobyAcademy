@@ -44,12 +44,14 @@
       </p>
       <div class="col-sm-4 col-sm-push-8">
         <h2 class="post-quote">"I wanted Fasey Carmer to be my wife."</h2>
-        <ul id="contents-desktop" class="post-contents contents-desktop hidden-xs hidden-sm">
-        </ul>
-        <ul id="contents-mobile" class="post-contents hidden-lg hidded-md">
-        </ul>
+        <div class="contents-desktop">
+          <h3 class="contents-title">Contents</h3>
+          <ul id="contents-desktop" class="post-contents hidden-xs">
+          </ul>
+        </div>
       </div>
       <div class="col-sm-8 col-sm-pull-4 post-content">
+        <img class="post-image" src="/img/social/2016-09-30-a-wild-bean-flickers-story.jpg" />
         <h1 id="this-is-a-test">This is a Test</h1>
 <p>I am sitting here with a Wild Bean Flicker. He is teaching me:</p>
 
@@ -64,8 +66,7 @@
       </div>
     </div>
     <script>
-      let oset = (window.innerHeight / 2 - 100) * -1;
-      let scene = new ScrollMagic.Scene({triggerElement: '.contents-desktop', triggerHook: 'onLeave', offset: oset})
+      let scene = new ScrollMagic.Scene({triggerElement: '.contents-desktop', triggerHook: 'onLeave', offset: -100})
         .setPin('.contents-desktop')
         .addTo(controller);
     </script>

@@ -8,5 +8,7 @@ Focus on yourself.
 - ~~Add pictures to the posts~~
 - Get a favicon
 - Add picture to actual post page
+- fix bugs in the contents scroller
+  - make offset dynamic
 
 *http://www.palettable.io/333-f2f2f2-279AD8*

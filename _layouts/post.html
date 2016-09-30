@@ -20,18 +20,19 @@
       </p>
       <div class="col-sm-4 col-sm-push-8">
         <h2 class="post-quote">"{{ page.quote }}"</h2>
-        <ul id="contents-desktop" class="post-contents contents-desktop hidden-xs hidden-sm">
-        </ul>
-        <ul id="contents-mobile" class="post-contents hidden-lg hidded-md">
-        </ul>
+        <div class="contents-desktop">
+          <h3 class="contents-title">Contents</h3>
+          <ul id="contents-desktop" class="post-contents hidden-xs">
+          </ul>
+        </div>
       </div>
       <div class="col-sm-8 col-sm-pull-4 post-content">
+        <img class="post-image" src="/img/{{ page.category | downcase }}/{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | remove: "'" | remove: " -" | replace: " ", "-" | downcase }}.jpg" />
         {{ content }}
       </div>
     </div>
     <script>
-      let oset = (window.innerHeight / 2 - 100) * -1;
-      let scene = new ScrollMagic.Scene({triggerElement: '.contents-desktop', triggerHook: 'onLeave', offset: oset})
+      let scene = new ScrollMagic.Scene({triggerElement: '.contents-desktop', triggerHook: 'onLeave', offset: -100})
         .setPin('.contents-desktop')
         .addTo(controller);
     </script>
