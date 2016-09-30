@@ -15,7 +15,7 @@
     {% include menu.html %}
 
     <div class="container content-container">
-      <h1>{{ page.title }}</h1>
+      <h1 class="landing-title">{{ page.title }}</h1>
       <p>Curated by {{ page.curated }}</p>
       <hr />
       <div class="col-sm-8 landing-posts">
@@ -30,7 +30,7 @@
                 <h3 class="first-post-title"><span class="first-post" style="font-weight: bold;">{{ post.title }}</span></h3>
                 <img class="first-image" src="/img/{{ post.category | downcase }}/{{ post.date | date: "%Y-%m-%d" }}-{{ post.title | remove: "'" | remove: " -" | replace: " ", "-" | downcase }}.jpg" />
                 <div class="first-post-desc first-post">
-                <p class="fp" style="font-style: italic;">Posted on {{ post.date | date: '%B %d, %Y' }} by {{ post.author }}</span></p>
+                <p class="fp" style="font-style: italic;">Posted on {{ post.date | date: '%B %d, %Y' }} by {{ post.author }}</p>
                   <p class="fp">{{ post.description }}</p></a>
               </div>
             {% else %}

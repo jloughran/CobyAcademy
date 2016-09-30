@@ -63,11 +63,12 @@ hr {
 
 .landing-posts {
   padding-left: 0px !important;
-  padding-right: 30px !important;
+  padding-right: 20px !important;
 }
 
 .landing-side {
   padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 
 h3.post-title {
@@ -186,6 +187,10 @@ p.fp {
   color: #f2f2f2 !important;
 }
 
+.first-post-desc a:hover {
+  text-decoration: none;
+}
+
 h3.contents-title {
   font-size: 2.5rem;
   font-weight: bold;
@@ -200,4 +205,18 @@ h3.contents-title {
 img.post-image {
   width: 100%;
   padding-top: 20px;
+}
+
+.landing-side h2 {
+  font-size: 250% !important;
+  font-weight: bold !important;
+}
+
+.landing-side h4 {
+  font-size: 175% !important;
+}
+
+h1.landing-title {
+  font-size: 400% !important;
+  font-weight: bold !important;
 }
