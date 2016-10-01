@@ -18,16 +18,22 @@
         <i>by {{ page.author }}</i><br />
         {{ page.date | date: '%B %d, %Y' }}
       </p>
+      <div class="top-post">
+        <div class="col-sm-8">
+          <img class="post-image" src="/img/{{ page.category | downcase }}/{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | remove: "'" | remove: " -" | replace: " ", "-" | downcase }}.jpg" />
+        </div>
+        <div class="col-sm-4">
+          <h2 class="post-quote">"{{ page.quote }}"</h2>
+        </div>
+      </div>
       <div class="col-sm-4 col-sm-push-8">
-        <h2 class="post-quote">"{{ page.quote }}"</h2>
         <div class="contents-desktop">
-          <h3 class="contents-title">Contents</h3>
+          <h3 class="contents-title hidden-xs">Contents</h3>
           <ul id="contents-desktop" class="post-contents hidden-xs">
           </ul>
         </div>
       </div>
       <div class="col-sm-8 col-sm-pull-4 post-content">
-        <img class="post-image" src="/img/{{ page.category | downcase }}/{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | remove: "'" | remove: " -" | replace: " ", "-" | downcase }}.jpg" />
         {{ content }}
       </div>
     </div>

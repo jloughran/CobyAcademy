@@ -111,7 +111,6 @@ h2.post-quote {
   font-size: 4rem;
   font-style: italic;
   padding-bottom: 50px;
-  height: 473px;
 }
 
 .post-content h1, h2.post-quote {
@@ -196,6 +195,7 @@ h3.contents-title {
   font-weight: bold;
   color: #333;
   margin-bottom: -4px;
+  padding-top: 50px;
 }
 
 .post-content h1, .post-content h2 {
@@ -219,4 +219,8 @@ img.post-image {
 h1.landing-title {
   font-size: 400% !important;
   font-weight: bold !important;
+}
+
+.top-post {
+  height: 470px;
 }

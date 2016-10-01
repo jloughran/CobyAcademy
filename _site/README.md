@@ -11,6 +11,6 @@ Focus on yourself.
 - ~~fix bugs in the contents scroller~~
   - ~~make offset dynamic~~
 - fix landing page on mobile
-- fix contents and height of quote on mobile
+- ~~fix contents and height of quote on mobile~~
 
 *http://www.palettable.io/333-f2f2f2-279AD8*
