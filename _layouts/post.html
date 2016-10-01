@@ -19,7 +19,7 @@
         {{ page.date | date: '%B %d, %Y' }}
       </p>
       <div class="top-post">
-        <div class="col-sm-8">
+        <div class="col-sm-8 post-content">
           <img class="post-image" src="/img/{{ page.category | downcase }}/{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | remove: "'" | remove: " -" | replace: " ", "-" | downcase }}.jpg" />
         </div>
         <div class="col-sm-4">

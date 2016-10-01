@@ -25,14 +25,21 @@
           {% if post.categories contains page.title %}
             {% if first == true %}
               {% assign first = false %}
-              <div class="img-cont">
+              <div class="img-cont hidden-sm hidden-xs">
                 <a href="{{ post.url }}">
                 <h3 class="first-post-title"><span class="first-post" style="font-weight: bold;">{{ post.title }}</span></h3>
                 <img class="first-image" src="/img/{{ post.category | downcase }}/{{ post.date | date: "%Y-%m-%d" }}-{{ post.title | remove: "'" | remove: " -" | replace: " ", "-" | downcase }}.jpg" />
                 <div class="first-post-desc first-post">
                 <p class="fp" style="font-style: italic;">Posted on {{ post.date | date: '%B %d, %Y' }} by {{ post.author }}</p>
                   <p class="fp">{{ post.description }}</p></a>
+                </div>
               </div>
+                <div class="col-sm-9 landing-posts hidden-lg hidden-md">
+                  <a href="{{ post.url }}"><h3 class="post-title">{{ post.title }}</h3></a>
+                  <p>Posted on {{ post.date | date: '%B %d, %Y' }} by {{ post.author }}</p>
+                  <p class="post-description">{{ post.description }}</p>
+                </div>
+                <div class="col-sm-3 hidden-lg hidden-md"><img class="post-image" src="/img/{{ post.category | downcase }}/{{ post.date | date: "%Y-%m-%d" }}-{{ post.title | remove: "'" | remove: " -" | replace: " ", "-" | downcase }}.jpg" /></div>
             {% else %}
               <hr class="between-post" />
               <div class="col-sm-9 landing-posts">
@@ -44,8 +51,6 @@
             {% endif %}
           {% endif %}
         {% endfor %}
-      </div>
-
       </div>
       <div class="col-sm-4 landing-side">
         {{ content }}
