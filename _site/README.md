@@ -6,7 +6,7 @@ Focus on yourself.
 - Optimize the loading of the background image
 - ~~Create real landing pages for the different sections~~
 - ~~Add pictures to the posts~~
-- Get a favicon
+- ~~Get a favicon~~
 - ~~Add picture to actual post page~~
 - ~~fix bugs in the contents scroller~~
   - ~~make offset dynamic~~
