@@ -4,10 +4,12 @@ title: Nutrition
 curated: Jack Loughran
 ---
 ## Book of the Month: *October*
+
 #### [Good Calories, Bad Calories](https://www.amazon.com/Good-Calories-Bad-Controversial-Science/dp/1400033462) by *Gary Taubes*
 Taubes attempts to re-educate the reader on what is and isn't healthy.  *Good Calories, Bad Calories* presents views that are the opposite of what is commonly preached in the mainstream media.  The content may be a bit biased at times (Taubes himself admits to this), but it's important to be exposed to both sides of any argument.
 
 ## Outside Reading
+
 #### [Is eating behavior manipulated by the gastrointestinal microbiota?](http://onlinelibrary.wiley.com/doi/10.1002/bies.201400071/full)
 This scientific article explains the relationship between our **gut bacteria** and our health.  It draws some fascinating connections between these microbes and food cravings.  For those having trouble wading through the scientific language, [this article](http://universityofcalifornia.edu/news/do-gut-bacteria-rule-our-minds) should help.
 
