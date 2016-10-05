@@ -1,4 +1,5 @@
 # Coby Academy
+
 Focus on yourself.
 
 ### TODO:
@@ -12,7 +13,8 @@ Focus on yourself.
   - ~~make offset dynamic~~
 - ~~fix landing page on mobile~~
 - ~~fix contents and height of quote on mobile~~
-- fix link rendering in contents for "
-- fix heading on mobile
+- ~~fix link rendering in contents for "~~
+- ~~fix heading on mobile~~
+- add spacer class for posts that don't start with a header
 
 *http://www.palettable.io/333-f2f2f2-279AD8*
