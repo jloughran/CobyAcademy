@@ -3,6 +3,7 @@ layout: landing
 title: Nutrition
 curated: Jack Loughran
 ---
+
 ## Book of the Month: *October*
 
 #### [Good Calories, Bad Calories](https://www.amazon.com/Good-Calories-Bad-Controversial-Science/dp/1400033462) by *Gary Taubes*

@@ -12,5 +12,6 @@ Focus on yourself.
   - ~~make offset dynamic~~
 - ~~fix landing page on mobile~~
 - ~~fix contents and height of quote on mobile~~
+- fix link rendering in contents for "
 
 *http://www.palettable.io/333-f2f2f2-279AD8*
