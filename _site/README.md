@@ -13,5 +13,6 @@ Focus on yourself.
 - ~~fix landing page on mobile~~
 - ~~fix contents and height of quote on mobile~~
 - fix link rendering in contents for "
+- fix heading on mobile
 
 *http://www.palettable.io/333-f2f2f2-279AD8*
