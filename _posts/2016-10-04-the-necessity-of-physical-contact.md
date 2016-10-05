@@ -7,6 +7,8 @@ description: Cherry takes you through all the benefits of touching and physical 
 quote: Don't just tell her how you feel; <b>show</b> her.
 ---
 
+<div class="post-spacer"></div>
+
 Whether it's dapping up your best friend or simply giving a hug to your mother, physical contact is the easiest way to show affection to somebody you know. As simple as it may seem, the act of touching goes a long way towards building relationships. This is especially important when it comes to talking to girls. Physical contact during conversation is vital to having a successful interaction even if that simply means having a nice banter.
 
 I've summarized a few key benefits from physical contact in conversation below along with a few occasions where touching is valuable. Notice how *physical contact* is not groping girls randomly and inappropriately, but subtle gestures that are natural to the progression of the conversation.

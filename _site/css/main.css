@@ -232,3 +232,7 @@ h1.landing-title {
   border-top-width: 1px;
   border-top-color: #333;
 }
+
+.post-spacer {
+  height: 75px;
+}
