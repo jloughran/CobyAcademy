@@ -4,7 +4,9 @@ layout: home
 
 <h2 class="home-text">FOCUS ON YOURSELF.</h2>
 
-<a class="btn start-learning" href="#">Start Learning</a>
+{% for post in site.posts limit:1 %}
+<a class="btn start-learning" href="{{ post.url }}">Start Learning</a>
+{% endfor %}
 
 <h4 class="home-text">
   Our life is what our thoughts make it.<br />

@@ -4,7 +4,7 @@ title: Nutrition
 curated: Jack Loughran
 ---
 
-## Book of the Month: *October*
+## Book of the Month:
 
 #### [Good Calories, Bad Calories](https://www.amazon.com/Good-Calories-Bad-Controversial-Science/dp/1400033462) by *Gary Taubes*
 Taubes attempts to re-educate the reader on what is and isn't healthy.  *Good Calories, Bad Calories* presents views that are the opposite of what is commonly preached in the mainstream media.  The content may be a bit biased at times (Taubes himself admits to this), but it's important to be exposed to both sides of any argument.
